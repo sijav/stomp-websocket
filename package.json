@@ -7,6 +7,7 @@
     "build": "cake build",
     "test": "coffeelint -f coffeelint.json -r src && cake test"
   },
+  "main": "./lib/stomp.min.js",
   "devDependencies": {
     "coffee-script": "latest",
     "coffeelint": "latest",
